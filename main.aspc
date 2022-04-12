@@ -1,0 +1,6 @@
+use DlPrcInteger::IntegerMessages();
+use DlPrC::Programs.Integer();
+program IntegerExample :: Int -> Int -> Int.begin :: begin Programs::start.
+define Integer x :: 10;
+DlPrC::PrintInteger :: PutIntLn.x;
+program IntegerExample::end. Int -> Int -> Int -> End.Start.Program :: IntegerExample;
